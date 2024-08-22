@@ -10,25 +10,37 @@
 </head>
 <body class="">
     <!-- Header section start -->
-     <header class="max-w-screen-xl mx-auto px-4">
+     <header class="max-w-screen-xl mx-auto px-4 bg-gradient-to-r from-[#FFFFFF] to-[#f7f4f4]">
         
-         <nav class="flex flex-row justify-between items-center">
+         <nav class="flex flex-row justify-between items-center py-4">
             <!-- logo -->
-             <div><i class="fa-solid fa-arrow-right"></i> Rinterio</div>
+             <div class="flex gap-1 items-center"><i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full px-2 py-1.5 fa-rotate-by" style="--fa-rotate-angle: -45deg;"></i> <span class="text-2xl font-bold">Rinterio</span></div>
              <!-- nav items -->
-              <ul class="menu menu-horizontal px-1 flex gap-10">
-                  <li></i>Home</li>
-                  <li>Services</li>
-                  <li>Portfolio</li>
-                  <li>Blogs</li>
-                  <li>Contact Us</li>
-              </ul>
+              <div class="hidden md:block">
+                <ul class="menu menu-horizontal px-1 flex gap-4 lg:gap-10  text-base font-semibold text-[#737373]">
+                    <li class="text-black">Home</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Blogs</li>
+                    <li>Contact Us</li>
+                </ul>
+              </div>
              <!-- nab end items -->
-              <ul class="flex gap-10">
-                <li><i class="fa-solid fa-magnifying-glass"></i></li>
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <button>Book Consult <i class="fa-solid fa-arrow-right"></i></button>
-              </ul>
+              <div class="flex gap-2 lg:gap-6 items-center">
+                    <div class="hidden sm:block">
+                        <ul class="flex gap-2 lg:gap-6 items-center">
+                            <li><i class="fa-solid fa-magnifying-glass text-[#737373] bg-white p-3 rounded-full border"></i></li>
+                            <li><i class="fa-solid fa-cart-shopping text-[#737373] bg-white p-3 rounded-full border"></i></li>
+                            <button
+                                class="bg-[#ABEF5F] flex flex-row items-center gap-1 text-base font-semibold lg:font-bold px-2 py-1 lg:px-6 lg:py-2 rounded-full">Book
+                                Consult<i class="fa-solid fa-arrow-right bg-[#1C1C1C] rounded-full px-2 py-1.5 text-xs fa-rotate-by text-white"
+                                    style="--fa-rotate-angle: -45deg;"></i>
+                            </button>
+                        </ul>
+                    </div>
+                    <div class="md:hidden"><i class="fa-solid fa-bars text-[#737373] bg-white p-3 rounded-full border"></i>
+                    </div>
+              </div>
          </nav>
      </header>
     <!-- Main section start -->
