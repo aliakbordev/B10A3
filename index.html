@@ -66,34 +66,46 @@
         </div>
      </header>
     <!-- Main section start -->
-     <main class="px-4">
+     <main>
         <!-- about section -->
         <section class="bg-gray-100 py-8">
-            <div class="max-w-screen-xl mx-auto">
+            <div class="max-w-screen-xl mx-auto px-4  relative">
+                <img class="absolute -left-7 top-3 hidden xl:block" src="./assets/Vector.png" alt="">
                 <!-- about us -->
-                 <div>
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
                     <!-- about us content -->
-                    <div>
-                        <p>
+                    <div class="flex flex-col gap-4 items-center text-center lg:text-start lg:items-start lg:w-1/2">
+                        <p class="font-semibold bg-white w-28 text-center rounded-full text-[#494949]">
                             <i class="fa-solid fa-arrow-right"></i>
                             About Us
                         </p>
-                        <h1>We design thoughtful, liveable spaces</h1>
-                        <p>The barn house captivates with its blend of rustic charm and
+                        <h1 class="text-xl md:text-2xl lg:text-4xl font-bold">We design thoughtful, liveable spaces</h1>
+                        <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and
                         modern sophistication, featuring weathered wood, sleek metal accents.</p>
-                        <div>
-                            <img src="./assets/commercial.png" alt="image">
-                            <div>
-                                <h4>Commercial</h4>
-                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <div class="flex flex-col gap-8 md:flex-row lg:flex-col">
+                            <div class="flex flex-row items-center gap-3 bg-white p-5 rounded-lg">
+                                <img src="./assets/commercial.png" alt="image">
+                                <div class="flex flex-col gap-2 text-start">
+                                    <h4 class="text-xl font-semibold">Commercial</h4>
+                                    <p class="text-[#494949] text-base leading-4">The barn house captivates with its blend of rustic charm and
+                                        modern.</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-row items-center gap-3 bg-white p-5 rounded-lg">
+                                <img src="./assets/residential.png" alt="image">
+                                <div class="flex flex-col gap-2 text-start">
+                                    <h4 class="text-xl font-semibold">Residential</h4>
+                                    <p class="text-[#494949] text-base leading-4">The barn house captivates with its blend of rustic charm and
+                                        modern.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- about us img -->
-                    <div>
+                    <div class="lg:w-1/2">
                         <img src="./assets/Rectangle.png" alt="image">
                     </div>
-                 </div>
+                </div>
             </div>
         </section>
      </main>
