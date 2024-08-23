@@ -46,8 +46,18 @@
                             </button>
                         </ul>
                     </div>
-                    <div class="md:hidden">
-                        <i class="fa-solid fa-bars text-[#737373] bg-white p-3 rounded-full border"></i>
+                    <div class="md:hidden relative group">
+                        <i class="fa-solid fa-bars text-[#737373] bg-white p-3 rounded-full border cursor-pointer"></i>
+                        <!-- dropdown menu -->
+                        <div class="hidden w-56 group-hover:block absolute top-full right-0 mt-2 z-10 bg-white shadow-lg rounded-md">
+                            <ul class="flex flex-col gap-1 p-2">
+                                <li class="text-black p-2 hover:bg-gray-100 rounded-md">Home</li>
+                                <li class="text-black p-2 hover:bg-gray-100 rounded-md">Services</li>
+                                <li class="text-black p-2 hover:bg-gray-100 rounded-md">Portfolio</li>
+                                <li class="text-black p-2 hover:bg-gray-100 rounded-md">Blogs</li>
+                                <li class="text-black p-2 hover:bg-gray-100 rounded-md">Contact Us</li>
+                            </ul>
+                        </div>
                     </div>
               </div>
          </nav>
